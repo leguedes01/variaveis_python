@@ -49,6 +49,17 @@ print(list)
 lista.remove(1)
 del lista[0]
 print(lista)
+____________________________________________________________________________________________________________
+from datetime import datetime, timedelta
+
+today = datetime.now() 
+        print("hoje", today)
+   yesterday = today - timedelta(days=1)
+        print("ontem", yesterday)
+   tomorrow = today + timedelta(days=1)
+        print("amanhã", tomorrow )
+   time_difference = tomorrow - yesterday
+        print(time_difference)
 
 
 
