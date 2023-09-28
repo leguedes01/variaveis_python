@@ -63,6 +63,26 @@ today = datetime.now()
 
 
 
-
+> from datetime import datetime, timedelta
+>>>
+KeyboardInterrupt
+>>>  from datetime import datetime, timedelta
+  File "<stdin>", line 1
+    from datetime import datetime, timedelta
+IndentationError: unexpected indent
+>>> from datetime import datetime, timedelta
+>>> today = datetime.now()
+>>> print("hoje" , today)
+hoje 2023-09-27 20:22:07.713184
+>>> yesterday = today - timedelta(days = 1)
+>>> print("ontem", yesterday)
+ontem 2023-09-26 20:22:07.713184
+>>> tomorrow = today + timedelta(days = 1)
+>>> print("amanhã" , tomorrow)
+amanhã 2023-09-28 20:22:07.713184
+>>> time_difference = tomorrow - yesterday
+>>> print("alguns dias" , time_difference)
+alguns dias 2 days, 0:00:00
+>>>
 
     
