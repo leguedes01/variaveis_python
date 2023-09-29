@@ -85,4 +85,33 @@ amanhã 2023-09-28 20:22:07.713184
 alguns dias 2 days, 0:00:00
 >>>
 
+__________________________________________________________________________________________________
+# EXERCÍCIO 01
+
+class Dog:
+   def __init__(self, raca, peso, sexo):
+       self.raca = raca
+       self.peso = peso
+       self.sexo = sexo
+       
+       dog = dog("Golden" , "190peso" , "Macho")
+       
+print("A raça do cachorro é", Dog.raca)
+print("O peço do cachorro é", Dog.peso)
+print("O sexo do cachorro é", Dog.sexo)
+       
+       
+       # EXERCÍCIO 02
+       
+class Retangulo:
+    def __init__(self, H, L, C):
+            self.H = altura
+            self.L = largura
+            self.C = cumprimento
+            
+    Retangulo = Retangulo(10 , 20 , 18)
     
+    
+    print("A altura do retangulo é" Retangulo.H)
+    print("O cumprimento do retangulo é" Retangulo.C) 
+    return 
